@@ -72,10 +72,10 @@
   height: 100%;
   z-index: 1;
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   background-color: white;
-  background-image: url('../images/menubgmobiletop.svg') , url(../images/menubgmobilebottom.svg);
+  background-image: url('../images/menubgmobiletop.svg'), url(../images/menubgmobilebottom.svg);
   background-repeat: no-repeat;
   background-size: 90%, 100%;
   background-position: left top, left bottom;
