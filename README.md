@@ -1,76 +1,35 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+Javascript functionality for Menu button of the Webpage
 
-> One paragraph statement about the project.
+Javascript functionalities were added to the menu button of the designed webpage. 
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./images/mobile_menu.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, GitHub pages
+- WebHint, StyleLint packages are used to check for linter errors
+- Visual Studio
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://medini-rajendra.github.io/Mobile_Webpage_Menu/)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+## Setup 
+- git clone https://github.com/Medini-Rajendra/Mobile_Webpage_Menu.git
+- cd into the folder
+- git checkout design_branch
+- open `index.html` with live server
 
 ## Authors
+Rajendra Medini
+- GitHub: [@Medini-Rajendra](https://github.com/Medini-Rajendra)
+- Twitter: [@invenire512](https://twitter.com/invenire512)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/medinichaitanya/)
 
-👤 **Author1**
+#Alex Gamino#
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
+## ðŸ“ License
 
 This project is [MIT](./MIT.md) licensed.
