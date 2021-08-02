@@ -1,3 +1,7 @@
+* {
+  text-decoration: none;
+}
+
 .textcontainer {
   display: flex;
   flex-direction: column;
@@ -18,7 +22,7 @@
   width: 20px;
   height: 14px;
   margin-top: 20px;
-  background-image: url("../images/ic_menu.svg");
+  background-image: url("../images/ic_.svg");
 }
 
 .text1 {
@@ -70,7 +74,11 @@
   position: fixed;
   top:0;
   left:0;
-  background: white;
+  background-color: white;
+  background-image: url('../images/menubgmobiletop.svg') , url(../images/menubgmobilebottom.svg);
+  background-repeat: no-repeat;
+  background-size: 90%, 100%;
+  background-position: left top, left bottom;
 }
 
 .menu_ul {
