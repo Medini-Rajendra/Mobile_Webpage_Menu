@@ -40,4 +40,13 @@ function mobile_menu() {
     a1.textContent='Portfolio';
     a2.textContent='About';
     a3.textContent='Contact';
+
+    a0.style.color="Black";
+    a0.style.fontSize="large";
+    a1.style.color="Black";
+    a1.style.fontSize="large";
+    a2.style.color="Black";
+    a2.style.fontSize="large";
+    a3.style.color="Black";
+    a3.style.fontSize="large";
 }
