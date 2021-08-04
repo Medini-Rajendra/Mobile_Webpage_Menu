@@ -628,6 +628,7 @@
 
 .contact-form-ullist {
   list-style: none;
+  margin-left: 350px;
 }
 
 .nooutline:focus {
@@ -920,6 +921,7 @@ textarea {
     width: 702px;
     height: 877px;
     margin-top: -1px;
+    margin-left: -36%;
   }
 
   .textchk {
@@ -935,9 +937,21 @@ textarea {
     line-height: 100%;
   }
 
+  .text1desk {
+    padding-top: 100px;
+    padding-left: 70px;
+    width: 484px;
+    height: 220px;
+    font-size: 110px;
+    line-height: 100%;
+    margin-left: 15%;
+  }
+
   .text2 {
     padding-left: 70px;
-    margin-top: -400px;
+    margin-top: -420px;
+    margin-left: 15%;
+    width: 21%;
   }
 
   span {
@@ -945,8 +959,8 @@ textarea {
   }
 
   .border-button {
-    margin-top: 10px;
-    margin-left: 70px;
+    margin-top: 3px;
+    margin-left: 355px;
     text-align: center;
     width: 254px;
     height: 70px;
@@ -962,8 +976,8 @@ textarea {
     background-repeat: no-repeat;
     width: 175px;
     height: 175px;
-    margin-top: 2px;
-    margin-left: 473px;
+    margin-top: 30px;
+    margin-left: 772px;
   }
 
   .projects-container {
@@ -1015,8 +1029,8 @@ textarea {
 
   .text3 {
     margin: 0;
-    margin-top: 298px;
-    margin-left: -5px;
+    margin-top: 308px;
+    margin-left: 205px;
     width: 398px;
     height: 110px;
     font-size: 110px;
@@ -1029,16 +1043,16 @@ textarea {
     background-repeat: no-repeat;
     width: 160px;
     height: 160px;
-    margin-top: 160px;
-    margin-left: -120px;
+    margin-top: 187px;
+    margin-left: -40px;
   }
 
   .projectpageimage1 {
     background-image: url("../images/first_project_image.svg");
     width: 870px;
     height: 558px;
-    margin-top: 155px;
-    margin-left: -380px;
+    margin-top: 185px;
+    margin-left: -500px;
   }
 
   .projectpageimage1:hover {
@@ -1048,8 +1062,8 @@ textarea {
 
   .projectpageimage2 {
     background-image: url("../images/second_project.svg");
-    margin-top: 32px;
-    margin-left: 0;
+    margin-top: 4.3%;
+    margin-left: 300px;
     width: 465px;
     height: 270px;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -1058,36 +1072,36 @@ textarea {
   .projectpageimage3 {
     width: 800px;
     height: 465px;
-    margin-top: -211px;
-    margin-left: -8px;
+    margin-top: -207px;
+    margin-left: 285px;
   }
 
   .projectpageimage4 {
     width: 465px;
     height: 270px;
     margin-top: -3px;
-    margin-left: -22.7px;
+    margin-left: -88.2px;
   }
 
   .projectpageimage5 {
     width: 415px;
     height: 270px;
-    margin-left: -523px;
-    margin-top: 240px;
+    margin-left: -627px;
+    margin-top: 238px;
   }
 
   .projectpageimage6 {
     background: url("../images/sixthproject.svg");
     background-repeat: no-repeat;
-    margin-top: -15px;
+    margin-top: -11px;
     margin-left: 520px;
     width: 465px;
     height: 270px;
   }
 
   .rectangle11 {
-    margin-top: 37px;
-    margin-left: -56px;
+    margin-top: 33px;
+    margin-left: -63px;
     width: 415px;
     height: 218px;
   }
@@ -1263,7 +1277,7 @@ textarea {
     width: 279px;
     height: 289px;
     margin-top: 180px;
-    margin-left: 150px;
+    margin-left: 450px;
     background: #1c528a;
   }
 
@@ -1299,7 +1313,7 @@ textarea {
     color: #7d7c84;
     height: 18px;
     margin-top: 10px;
-    margin-left: 390px;
+    margin-left: 740px;
   }
 
   .contact-form-email {
@@ -1316,7 +1330,7 @@ textarea {
     width: 64px;
     height: 18px;
     margin-top: -83px;
-    margin-left: 653px;
+    margin-left: 1003px;
     font-size: 12px;
     line-height: 18px;
     color: #7d7c84;
@@ -1337,7 +1351,7 @@ textarea {
     font-size: 12px;
     line-height: 18px;
     margin-top: 20px;
-    margin-left: 360px;
+    margin-left: 710px;
     color: #7d7c84;
   }
 
@@ -1345,12 +1359,13 @@ textarea {
     width: 350.75px;
     height: 280.84px;
     margin-top: -100px;
-    margin-left: 1032px;
+    margin-left: 1322px;
   }
 
   .footer_rect {
     width: 1440px;
     height: 123px;
+    margin-left: 270px;
     background: #1a2236;
   }
 
@@ -1435,7 +1450,7 @@ textarea {
     width: 120px;
     height: 27px;
     margin-top: -80px;
-    margin-left: 120px;
+    margin-left: 430px;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
@@ -1445,7 +1460,7 @@ textarea {
 
   .img12 {
     position: relative;
-    margin-left: 260px;
+    margin-left: 560px;
     margin-top: 42px;
     top: -69px;
     color: #92dcdc;
@@ -1453,38 +1468,38 @@ textarea {
 
   .img13 {
     position: relative;
-    left: 950px;
+    left: 1250px;
     top: -130px;
   }
 
   .img14 {
     position: relative;
-    left: 940px;
+    left: 1240px;
     top: -130px;
   }
 
   .img15 {
     position: relative;
-    left: 930px;
+    left: 1230px;
     top: -130px;
   }
 
   .img16 {
     position: relative;
     top: -130px;
-    left: 920px;
+    left: 1220px;
   }
 
   .img17 {
     position: relative;
     top: -130px;
-    left: 910px;
+    left: 1210px;
   }
 
   .img18 {
     position: relative;
     top: -130px;
-    left: 900px;
+    left: 1200px;
   }
 
   .text10 {
@@ -1492,11 +1507,11 @@ textarea {
     font-size: 110px;
     line-height: 100%;
     margin-top: -170px;
-    margin-left: 400px;
+    margin-left: 740px;
   }
 
   .img111_getstarted {
-    margin-left: -8px;
+    margin-left: 296px;
     margin-top: -135px;
     width: 160.38px;
     height: 175.42px;
@@ -1506,19 +1521,19 @@ textarea {
     width: 87.69px;
     height: 87.71px;
     z-index: 1;
-    margin-left: 15px;
+    margin-left: 326px;
     margin-top: 40px;
   }
 
   .contact-form-para {
     width: 548px;
-    margin-left: 400px;
+    margin-left: 750px;
   }
 
   .img11 {
     width: 363.06px;
     height: 150px;
-    margin-left: -77px;
+    margin-left: 227px;
     margin-top: 5px;
   }
 
@@ -1526,14 +1541,14 @@ textarea {
     box-sizing: border-box;
     width: 130px;
     height: 160px;
-    margin-top: 156px;
-    margin-left: -984px;
+    margin-top: 158px;
+    margin-left: -987px;
   }
 
   .newimg1_grid1 {
     width: 331px;
     height: 175.42px;
-    margin-left: -851.5px;
+    margin-left: -883.5px;
     margin-top: -5px;
     background-blend-mode: overlay, normal;
     transform: matrix(1, 0, 0, 1, 0, 0);
@@ -1542,14 +1557,14 @@ textarea {
   .newimg2_grid1 {
     width: 87.69px;
     height: 87.71px;
-    margin-left: -749.1px;
-    margin-top: 216px;
+    margin-left: -805.1px;
+    margin-top: 218px;
   }
 
   .newimg3_grid1 {
     width: 140px;
     height: 175px;
-    margin-left: -661px;
+    margin-left: -742px;
     margin-top: 147px;
   }
 
@@ -1557,13 +1572,14 @@ textarea {
     width: 175.38px;
     height: 175.42px;
     margin-top: 79px;
+    margin-left: -1px;
   }
 
   .newimg1_grid2 {
     width: 292.75px;
     height: 167.42px;
     margin-top: -12px;
-    margin-left: 89px;
+    margin-left:88px;
   }
 
   .newimg_grid3 {
@@ -1571,6 +1587,7 @@ textarea {
     height: 124.04px;
     margin-left: -7px;
     margin-top: 0;
+    margin-left: 285px;
   }
 
   .newimg1_grid3 {
@@ -1592,7 +1609,7 @@ textarea {
     width: 130px;
     height: 160px;
     margin-top: 620px;
-    margin-left: -290px;
+    margin-left: -340px;
   }
 
   .rectangle14_grid33 {
@@ -1610,7 +1627,7 @@ textarea {
     font-weight: 500;
     font-size: 18px;
     padding-left: -25px;
-    margin-left: -445px;
+    margin-left: -625px;
     text-align: center;
     text-decoration: none;
     margin-top: 473px;
@@ -1620,7 +1637,7 @@ textarea {
 
   .img4 {
     position: relative;
-    margin-left: 180px;
+    margin-left: 510px;
     top: -263px;
     left: 800px;
   }
@@ -1630,7 +1647,7 @@ textarea {
     width: 62.02px;
     height: 62.02px;
     margin-top: 572px;
-    margin-left: -256px;
+    margin-left: -356px;
   }
 
   .abouttext {
@@ -1639,7 +1656,7 @@ textarea {
     font-size: 110px;
     line-height: 100%;
     margin-top: 115px;
-    margin-left: -200px;
+    margin-left: -340px;
   }
 
   .aboutpara {
@@ -1648,7 +1665,7 @@ textarea {
     font-size: 14px;
     line-height: 21px;
     margin-top: 320px;
-    margin-left: -310px;
+    margin-left: -490px;
   }
 
   .About_section {
@@ -1658,4 +1675,128 @@ textarea {
   .Contact-form {
     display: none;
   }
+}
+
+.pop_container {
+  display: flex;
+}
+
+.pop_window {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.closeicon {
+  margin-top: -30px;
+  margin-left: 20px;
+  font-size: 2em;
+}
+
+.portfolio_image {
+  margin-left: 60px;
+  margin-top: 20px;
+  width: 278.75px;
+  height: 202.7px;
+}
+
+.move_buttons {
+  margin-left: 62px;
+  margin-top: 10px;
+  justify-content: flex-start;
+}
+
+.pop_content {
+  width: 291px;
+  height: 432px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.pop_content p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.padding_live {
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  background: white;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.buttons_live_pop {
+  width: 246px;
+  height: 51px;
+  margin-left: 80px;
+  margin-top: -20px;
+}
+
+.live_source_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pop_button_edit {
+  background: white;
+  border: 0.5px solid black;
+  width: 79px;
+  height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+}
+
+.divider {
+  width: 10px;
+  height: auto;
+  display: inline-block;
+}
+
+.divider_live {
+  width: auto;
+  height: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.pop_title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 80%;
+  width: 264px;
+  height: 16px;
+  margin-left: 30px;
+}
+
+.section_pop_window {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  background: white;
+  overflow-y: scroll;
+}
+
+.live_link1 {
+  background: url('../images/live_link.svg');
+  background-repeat: no-repeat;
+  background-position: 200px;
+}
+
+.live_link2 {
+  background: url('../images/github_portfolio.svg');
+  background-repeat: no-repeat;
+  background-position: 200px;
 }
