@@ -381,6 +381,7 @@
   display: flex;
   flex-direction: column;
   margin-top: -1px;
+  /* align-items: center; */
 }
 
 .abouttext {
@@ -628,7 +629,6 @@
 
 .contact-form-ullist {
   list-style: none;
-  margin-left: 350px;
 }
 
 .nooutline:focus {
@@ -1782,11 +1782,20 @@ textarea {
 
 .section_pop_window {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   top: 0;
   background: white;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.section_pop_window * {
+  margin-left: unset;
 }
 
 .live_link1 {
