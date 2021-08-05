@@ -146,6 +146,7 @@ body,html {
 .projectpageimage1 {
   background: url("../images/Rectangle_21.svg");
   background-repeat: no-repeat;
+  height: 10em;
 }
 
 .rectangle1 {
