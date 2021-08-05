@@ -242,7 +242,5 @@ function pop_project_window() {
     img6.setAttribute('class','img3')
     img6.setAttribute('src','images/arrowsymbol.svg')
     img6.setAttribute('alt','arrow symbol for webpage')
-
-    insertBefore(section1)
 }
-//pop_project_window()
+// pop_project_window()

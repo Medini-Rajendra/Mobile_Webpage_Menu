@@ -871,10 +871,8 @@ textarea {
 }
 
 .portfolio_image {
-  margin-left: 60px;
   margin-top: 20px;
-  width: 278.75px;
-  height: 202.7px;
+  width: 60%;
 }
 
 .move_buttons {
@@ -884,13 +882,10 @@ textarea {
 }
 
 .pop_content {
-  width: 291px;
+  width: 80%;
   height: 432px;
-  margin-left: 60px;
-  margin-top: 30px;
-}
-
-.pop_content p {
+  margin-left: 4em;
+  margin-top: 2em;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -914,10 +909,7 @@ textarea {
   width: 246px;
   height: 51px;
   margin-left: 80px;
-  margin-top: -20px;
-}
-
-.live_source_container {
+  margin-bottom: 5em;
   display: flex;
   flex-direction: column;
 }
@@ -970,6 +962,7 @@ textarea {
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+  overflow-y: scroll;
 }
 
 .section_pop_window * {
