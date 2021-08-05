@@ -114,9 +114,12 @@ function mobile_menu() {
     a3.style.fontSize="large";
 }
 
-function pop_project_win(title, image, tech0, tech1, tech2, livelink, sourcelink) {
+function pop_project_win(title, image, rectclass, alinkclass, imglinkclass, tech0, tech1, tech2, livelink, sourcelink) {
     this.title=title;
     this.image=image;
+    this.rectclass=rectclass;
+    this.alinkclass=alinkclass;
+    this.imglinkclass=imglinkclass;
     this.tech0=tech0;
     this.tech1=tech1;
     this.tech2=tech2;
@@ -127,6 +130,9 @@ function pop_project_win(title, image, tech0, tech1, tech2, livelink, sourcelink
 const project0 = new pop_project_win(
     'Project name goes here',
     'projectpageimage1',
+    'rectangle1',
+    'text115',
+    'img113',
     'HTML/CSS',
     'Ruby on rails',
     'Javascript',
@@ -137,6 +143,9 @@ const project0 = new pop_project_win(
 const project1 = new pop_project_win(
     'Project name goes here',
     'projectpageimage2',
+    'rectangle3',
+    'text25',
+    'img img23',
     'HTML/CSS',
     'Ruby on rails',
     'Javascript',
@@ -147,6 +156,9 @@ const project1 = new pop_project_win(
 const project2 = new pop_project_win(
     'Project name goes here',
     'projectpageimage3',
+    'rectangle5',
+    'text35',
+    'img33',
     'HTML/CSS',
     'Ruby on rails',
     'Javascript',
@@ -157,6 +169,9 @@ const project2 = new pop_project_win(
 const project3 = new pop_project_win(
     'Project name goes here',
     'projectpageimage4',
+    'rectangle7',
+    'text45',
+    'img43',
     'HTML/CSS',
     'Ruby on rails',
     'Javascript',
@@ -167,6 +182,9 @@ const project3 = new pop_project_win(
 const project4 = new pop_project_win(
     'Project name goes here',
     'projectpageimage5',
+    'rectangle9',
+    'text55',
+    'img35',
     'HTML/CSS',
     'Ruby on rails',
     'Javascript',
@@ -177,6 +195,9 @@ const project4 = new pop_project_win(
 const project5 = new pop_project_win(
     'Project name goes here',
     'projectpageimage6',
+    'rectangle11',
+    'text5',
+    'img3',
     'HTML/CSS',
     'Ruby on rails',
     'Javascript',
@@ -187,6 +208,9 @@ const project5 = new pop_project_win(
 const projects = [project0, project1, project2, project3, project4, project5];
 const titles = [];
 const images = [];
+const rects = [];
+const alinks=[];
+const imglinks=[];
 const tech0s = [];
 const tech1s = [];
 const tech2s = [];
@@ -197,6 +221,9 @@ const sourceLinks = [];
 for (let i = 0; i < projects.length; i += 1) {
     titles.push(projects[i].title);
     images.push(projects[i].image);
+    rects.push(projects[i].rectclass);
+    alinks.push(projects[i].alinkclass);
+    imglinks.push(projects[i].imglinkclass);
     tech0s.push(projects[i].tech0);
     tech1s.push(projects[i].tech1);
     tech2s.push(projects[i].tech2);
@@ -217,7 +244,7 @@ div1.setAttribute('class','secondimagecontain')
 h1.setAttribute('class','text3')
 h1.textContent='Projects'
 
-function display_project(title, image, tech0, tech1, tech2, id) {
+function display_project(title, image, rectclass, alinkclass, imglinkclass, tech0, tech1, tech2, id) {
     const div2=document.createElement('div')
     const div3=document.createElement('div')
     const div4=document.createElement('div')
@@ -232,16 +259,17 @@ function display_project(title, image, tech0, tech1, tech2, id) {
     div5.append(div6,div7,div8)
 
     div2.setAttribute('class',image)
-    div3.setAttribute('class','rectangle1')
+    div3.setAttribute('class',rectclass)
     div4.setAttribute('class','text4')
     div5.setAttribute('class','grid-container')
     div6.setAttribute('class','grid-item box1')
     div7.setAttribute('class','grid-item box2')
     div8.setAttribute('class','grid-item box3')
-    a0.setAttribute('class','text115')
+    a0.setAttribute('class',alinkclass)
     a0.setAttribute('href','#')
     a0.textContent="See this project"
-    img0.setAttribute('class','img113')
+    a0.setAttribute('onclick', 'pop_window_click()')
+    img0.setAttribute('class',imglinkclass)
     img0.setAttribute('src','images/arrowsymbol.svg')
     img0.setAttribute('alt','arrow symbol for webpage')
 
@@ -252,10 +280,72 @@ function display_project(title, image, tech0, tech1, tech2, id) {
 
 }
 
+const section2=document.createElement('section')
+const div14=document.createElement('div')
+const h34=document.createElement('h3')
+const div15=document.createElement('div')
+const div16=document.createElement('div')
+const button10=document.createElement('button')
+const div17=document.createElement('div')
+const button11=document.createElement('button')
+const div18=document.createElement('div')
+const button12=document.createElement('button')
+const img21=document.createElement('img')
+const p21=document.createElement('p')
+const div19=document.createElement('div')
+const button13=document.createElement('button')
+const div20=document.createElement('div')
+const button14=document.createElement('button')
+
+function pop_window_click() {
+    body.append(section2)
+    section2.append(div14,h34,div15,p21,div16,button10,div17,button11,div18,button12,img21,p21,div19,button13,div20,button14)
+    div14.append(h34,div15)
+    div16.append(button10,div17,button11,div18,button12)
+    //img21.append(p21)
+    div19.append(button13,div20,button14)
+    section2.setAttribute('class', 'section_pop_window')
+    div14.setAttribute('class', 'pop_container pop_window')
+    h34.setAttribute('class', 'pop_title')
+    div15.setAttribute('class', 'closeicon')
+    div15.setAttribute('onclick', 'section2.remove()')
+    div16.setAttribute('class', 'pop_container move_buttons')
+    button10.setAttribute('class', 'pop_button_edit')
+    button10.setAttribute('type', 'button')
+    button11.setAttribute('class', 'pop_button_edit')
+    button11.setAttribute('type', 'button')
+    button12.setAttribute('class', 'pop_button_edit')
+    button12.setAttribute('type', 'button')
+    div17.setAttribute('class', 'divider')
+    div18.setAttribute('class', 'divider')
+    img21.setAttribute('class', 'portfolio_image')
+    img21.setAttribute('src', './images/projectpage_pop.svg')
+    img21.setAttribute('alt', 'portfolio_pic')
+    p21.setAttribute('class', 'pop_content')
+    div19.setAttribute('class', 'buttons_live_pop')
+    button13.setAttribute('class', 'padding_live live_link1')
+    button13.setAttribute('onclick',"window.location.href='https://github.com/Medini-Rajendra/Mobile_Webpage_Menu';")
+    div20.setAttribute('class', 'divider_live')
+    button14.setAttribute('class', 'padding_live live_link2')
+    button14.setAttribute('onclick', "window.location.href='https://github.com/Medini-Rajendra/Mobile_Webpage_Menu';")
+
+    h34.textContent='Project name goes here'
+    div15.textContent='×'
+    button10.textContent='HTML/CSS'
+    button11.textContent='Ruby on Rails'
+    button12.textContent='Javascript'
+    p21.textContent='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi <br><br>Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.'
+    button13.textContent='See live'
+    button14.textContent='See source'
+}
+
 for (let i = 0; i < titles.length; i += 1) {
     display_project(
         titles[i],
         images[i],
+        rects[i],
+        alinks[i],
+        imglinks[i],
         tech0s[i],
         tech1s[i],
         tech2s[i],
