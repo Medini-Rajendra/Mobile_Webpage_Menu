@@ -977,3 +977,8 @@ textarea {
   background-repeat: no-repeat;
   background-position: 200px;
 }
+
+.chklabel_email {
+  font-size: 122%;
+  padding-top: 342%
+}

@@ -127,7 +127,7 @@ span {
   width: 175px;
   height: 175px;
   margin-top: 18px;
-  margin-left: 386px;
+  margin-left: 526px;
 }
 
 .projects-container {
@@ -212,8 +212,8 @@ span {
 .projectpageimage2 {
   background-image: url("../images/second_project.svg");
   margin-top: 8.4%;
-  margin-left: -72px;
-  width: 465px;
+  margin-left: -2px;
+  width: 485px;
   height: 270px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -222,14 +222,14 @@ span {
   width: 800px;
   height: 465px;
   margin-top: -207px;
-  margin-left: -87px;
+  margin-left: 1.5px;
 }
 
 .projectpageimage4 {
   width: 465px;
   height: 270px;
   margin-top: -3px;
-  margin-left: -20.4px;
+  margin-left: -34.4px;
 }
 
 .projectpageimage5 {
@@ -442,13 +442,14 @@ span {
   width: 279px;
   height: 289px;
   margin-top: 469px;
-  margin-left: -558px;
+  margin-left: -577px;
   background: #febf52;
 }
 
 .contact-form-name {
   width: 254px;
   height: 60px;
+  padding-top: 12px;
   margin-top: 42px;
   margin-left: 362px;
 }
@@ -466,9 +467,24 @@ span {
   margin-left: 395px;
 }
 
+.nooutline:focus {
+  outline: none;
+}
+
+.nooutline {
+  padding-top: -20px;
+  margin-top: 0;
+}
+
+.nooutline-msg {
+  width: 500px;
+  height: 100px;
+}
+
 .contact-form-email {
   width: 253px;
   height: 60px;
+  padding-top: 12px;
   margin-left: 655px;
   margin-top: -59px;
 }
@@ -492,6 +508,18 @@ span {
   width: 552px;
 }
 
+li.contact-form-submit {
+  margin-left: 100px;
+  margin-top: unset;
+  width: 200px;
+}
+
+.contact-form-submit {
+  margin-top: 20px;
+  width: 200px;
+  margin-left: 500px;
+}
+
 .messagelabel {
   position: relative;
   top: 170px;
@@ -509,7 +537,7 @@ span {
   width: 350.75px;
   height: 280.84px;
   margin-top: -100px;
-  margin-left: 1322px;
+  margin-left: 1092px;
 }
 
 .footer_rect {
@@ -745,14 +773,14 @@ span {
 .newimg1_grid3 {
   width: 87.69px;
   height: 87.71px;
-  margin-left: 502px;
+  margin-left: 592px;
   margin-top: 0;
 }
 
 .newimg2_grid3 {
   width: 87.69px;
   height: 87.71px;
-  margin-left: -592px;
+  margin-left: -682px;
   margin-top: 35px;
 }
 
@@ -761,7 +789,7 @@ span {
   width: 130px;
   height: 160px;
   margin-top: 620px;
-  margin-left: -240px;
+  margin-left: -290px;
 }
 
 .rectangle14_grid33 {
@@ -790,8 +818,9 @@ span {
 .img4 {
   position: relative;
   margin-left: 510px;
-  top: -263px;
-  left: 800px;
+  width: 20px;
+  top: -250px;
+  left: 560px;
 }
 
 .newimg1_grid33 {
@@ -799,7 +828,7 @@ span {
   width: 62.02px;
   height: 62.02px;
   margin-top: 572px;
-  margin-left: -161px;
+  margin-left: -231px;
 }
 
 .abouttext {

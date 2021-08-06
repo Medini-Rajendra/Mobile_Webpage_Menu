@@ -339,6 +339,35 @@ function pop_window_click() {
     button14.textContent='See source'
 }
 
+const form = document.querySelector('form');
+
+function validation() {
+    const mail = document.getElementById('mail').value;
+    console.log(mail)
+    const error = document.getElementById('error');
+    const pattern = /[A-Z]/;
+  
+    if (mail.match(pattern)) {
+      error.innerText = 'email must be in lower case';
+    } else {
+      error.innerText = 'you\'re cool';
+    }
+}
+
+form.addEventListener('submit', (e) => {
+    const mail = document.getElementById('mail').value;
+    console.log(mail)
+    const error = document.getElementById('error');
+    const pattern = /[A-Z]/;
+  
+    if (mail.match(pattern)) {
+      error.innerText = 'email must be in lower case';
+      e.preventDefault();
+    } else {
+      error.innerText = 'you\'re cool';
+    }
+});
+
 for (let i = 0; i < titles.length; i += 1) {
     display_project(
         titles[i],
