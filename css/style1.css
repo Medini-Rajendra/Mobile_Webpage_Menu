@@ -1,10 +1,12 @@
+* {
+  background-repeat: no-repeat;
+}
+
 body {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-
-  /* max-width: 1440px; */
   overflow-x: hidden;
 }
 
@@ -123,7 +125,6 @@ span {
 
 .imgdots {
   background-image: url("../images/image_dots.png");
-  background-repeat: no-repeat;
   width: 175px;
   height: 175px;
   margin-top: 18px;
@@ -190,7 +191,6 @@ span {
 
 .imgdots1 {
   background-image: url("../images/image_dots.png");
-  background-repeat: no-repeat;
   width: 160px;
   height: 160px;
   margin-top: 187px;
@@ -241,7 +241,6 @@ span {
 
 .projectpageimage6 {
   background: url("../images/sixthproject.svg");
-  background-repeat: no-repeat;
   margin-top: -13px;
   margin-left: 520px;
   width: 465px;
@@ -451,7 +450,7 @@ span {
   height: 60px;
   padding-top: 12px;
   margin-top: 42px;
-  margin-left: 362px;
+  margin-left: unset;
 }
 
 .namelabel {
@@ -464,7 +463,7 @@ span {
   color: #7d7c84;
   height: 18px;
   margin-top: 10px;
-  margin-left: 395px;
+  margin-left: unset;
 }
 
 .nooutline {
@@ -485,7 +484,7 @@ span {
   width: 253px;
   height: 60px;
   padding-top: 12px;
-  margin-left: 655px;
+  margin-left: 50%;
   margin-top: -59px;
 }
 
@@ -496,7 +495,7 @@ span {
   width: 64px;
   height: 18px;
   margin-top: -83px;
-  margin-left: 655px;
+  margin-left: 45%;
   font-size: 12px;
   line-height: 18px;
   color: #7d7c84;
@@ -504,12 +503,12 @@ span {
 
 .contact-form-message {
   margin-top: 50px;
-  margin-left: 360px;
+  margin-left: unset;
   width: 552px;
 }
 
 li.contact-form-submit {
-  margin-left: 100px;
+  margin-left: 0;
   margin-top: unset;
   width: 200px;
 }
@@ -517,7 +516,7 @@ li.contact-form-submit {
 .contact-form-submit {
   margin-top: 20px;
   width: 200px;
-  margin-left: 500px;
+  margin-left: unset;
 }
 
 .messagelabel {
@@ -529,7 +528,7 @@ li.contact-form-submit {
   font-size: 12px;
   line-height: 18px;
   margin-top: 20px;
-  margin-left: 358px;
+  margin-left: unset;
   color: #7d7c84;
 }
 
@@ -541,7 +540,7 @@ li.contact-form-submit {
 }
 
 .footer_rect {
-  width: 1440px;
+  width: 100%;
   height: 123px;
   margin-left: 10px;
   background: #1a2236;
@@ -622,72 +621,33 @@ li.contact-form-submit {
 .contactform_end {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  background: url(../images/image-geometry_7.svg), url(../images/contactBgLeftTop.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom, left top;
 }
 
 .text17_footer {
   width: 120px;
   height: 27px;
-  margin-top: -80px;
+  /* margin-top: -80px; */
   margin-left: 330px;
   font-weight: 500;
   font-size: 18px;
-  line-height: 27px;
+  /* line-height: 27px; */
   text-decoration: none;
   color: #92dcdc;
 }
 
-.img12 {
-  position: relative;
-  width: 30px;
-  margin-left: 460px;
-  margin-top: 42px;
-  top: -69px;
-  color: #92dcdc;
-}
-
-.img13 {
-  position: relative;
-  left: -10px;
-  top: -130px;
-}
-
-.img14 {
-  position: relative;
-  left: 1240px;
-  top: -130px;
-}
-
-.img15 {
-  position: relative;
-  left: 1230px;
-  top: -130px;
-}
-
-.img16 {
-  position: relative;
-  top: -130px;
-  left: 1220px;
-}
-
-.img17 {
-  position: relative;
-  top: -130px;
-  left: 1210px;
-}
-
-.img18 {
-  position: relative;
-  top: -130px;
-  left: 1200px;
+.footer_icons {
+ margin-left: 1em;
 }
 
 .text10 {
   width: 548px;
   font-size: 110px;
   line-height: 100%;
-  margin-top: -170px;
-  margin-left: 410px;
-  margin-bottom: 0;
+  margin: unset;
 }
 
 .img111_getstarted {
@@ -708,7 +668,7 @@ li.contact-form-submit {
 .contact-form-para {
   width: 548px;
   margin-top: 50px;
-  margin-left: 420px;
+  margin-left: unset;
 }
 
 .img11 {
@@ -855,4 +815,9 @@ li.contact-form-submit {
 
 .Contact-form {
   display: none;
+}
+
+.contact-form-ullist {
+  padding: unset;
+  width: min-content;
 }
