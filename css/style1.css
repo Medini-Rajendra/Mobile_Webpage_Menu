@@ -467,13 +467,13 @@ span {
   margin-left: 395px;
 }
 
-.nooutline:focus {
-  outline: none;
-}
-
 .nooutline {
   padding-top: -20px;
   margin-top: 0;
+}
+
+.nooutline:focus {
+  outline: none;
 }
 
 .nooutline-msg {

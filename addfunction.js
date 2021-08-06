@@ -343,28 +343,36 @@ const form = document.querySelector('form');
 
 function validation() {
     const mail = document.getElementById('mail').value;
-    console.log(mail)
+    const mail1 = document.getElementById('mail_grid').value;
+
     const error = document.getElementById('error');
+    const error1 = document.getElementById('error_grid');
     const pattern = /[A-Z]/;
   
-    if (mail.match(pattern)) {
+    if (mail.match(pattern) || mail1.match(pattern)) {
       error.innerText = 'email must be in lower case';
+      error1.innerText = 'email must be in lower case';
     } else {
       error.innerText = 'you\'re cool';
+      error1.innerText = 'you\'re cool';
     }
 }
 
 form.addEventListener('submit', (e) => {
     const mail = document.getElementById('mail').value;
-    console.log(mail)
+    const mail1 = document.getElementById('mail_grid').value;
+
     const error = document.getElementById('error');
+    const error1 = document.getElementById('error_grid');
     const pattern = /[A-Z]/;
   
-    if (mail.match(pattern)) {
+    if (mail.match(pattern) || mail1.match(pattern)) {
       error.innerText = 'email must be in lower case';
+      error1.innerText = 'email must be in lower case';
       e.preventDefault();
     } else {
       error.innerText = 'you\'re cool';
+      error1.innerText = 'you\'re cool';
     }
 });
 
