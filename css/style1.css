@@ -554,7 +554,7 @@ li.contact-form-submit {
   height: 20px;
 }
 
-.footer_icons_container{
+.footer_icons_container {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -656,10 +656,12 @@ li.contact-form-submit {
 .text17_footer {
   width: 120px;
   height: 27px;
+
   /* margin-top: -80px; */
-  margin-left: 0px;
+  margin-left: 0;
   font-weight: 500;
   font-size: 18px;
+
   /* line-height: 27px; */
   text-decoration: none;
   color: #92dcdc;
