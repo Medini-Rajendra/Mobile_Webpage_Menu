@@ -280,41 +280,41 @@ function popWindowClick() {
 const form = document.querySelector('form');
 
 function validation() {
-    const mail = document.getElementById('mail').value;
-    const mail1 = document.getElementById('mail_grid').value;
-  
-    const error = document.getElementById('error');
-    const error1 = document.getElementById('error_grid');
+  const mail = document.getElementById('mail').value;
+  const mail1 = document.getElementById('mail_grid').value;
 
-    error.style.position="relative";
-    error.style.top="430%";
-    error.style.left="5%";
-    error.style.whiteSpace="nowrap";
-    error1.style.position="relative";
-    error1.style.top="500%";
-    error1.style.left="50%";
-    error1.style.whiteSpace="nowrap";
-    const pattern = /[A-Z]/;
-  
-    if (mail.match(pattern) || mail1.match(pattern)) {
-      error.innerText = 'email must be in lower case';
-      error1.innerText = 'email must be in lower case';
-    } else {
-      error.innerText = 'you\'re cool';
-      error1.innerText = 'you\'re cool';
-    }
+  const error = document.getElementById('error');
+  const error1 = document.getElementById('error_grid');
+
+  error.style.position = 'relative';
+  error.style.top = '430%';
+  error.style.left = '5%';
+  error.style.whiteSpace = 'nowrap';
+  error1.style.position = 'relative';
+  error1.style.top = '500%';
+  error1.style.left = '50%';
+  error1.style.whiteSpace = 'nowrap';
+  const pattern = /[A-Z]/;
+
+  if (mail.match(pattern) || mail1.match(pattern)) {
+    error.innerText = 'email must be in lower case';
+    error1.innerText = 'email must be in lower case';
+  } else {
+    error.innerText = 'you\'re cool';
+    error1.innerText = 'you\'re cool';
   }
-  
-  form.addEventListener('submit', (e) => {
-    const mail = document.getElementById('mail').value;
-    const mail1 = document.getElementById('mail_grid').value;
-  
-    const pattern = /[A-Z]/;
-  
-    if (mail.match(pattern) || mail1.match(pattern)) {
-      e.preventDefault();
-    } 
-  });
+}
+
+form.addEventListener('submit', (e) => {
+  const mail = document.getElementById('mail').value;
+  const mail1 = document.getElementById('mail_grid').value;
+
+  const pattern = /[A-Z]/;
+
+  if (mail.match(pattern) || mail1.match(pattern)) {
+    e.preventDefault();
+  }
+});
 
 if (typeof (Storage) !== 'undefined') {
   localStorage.setItem('name', 'Smith');
