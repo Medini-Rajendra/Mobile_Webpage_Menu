@@ -850,3 +850,8 @@ li.contact-form-submit {
   display: flex;
   justify-content: center;
 }
+
+.error_grid {
+  font-size: 122%;
+  padding-top: 342%;
+}

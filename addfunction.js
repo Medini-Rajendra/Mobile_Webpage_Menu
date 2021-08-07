@@ -10,69 +10,6 @@ const a0 = document.createElement('a');
 const a1 = document.createElement('a');
 const a2 = document.createElement('a');
 const a3 = document.createElement('a');
-/* first project */
-// let section1=document.createElement('section')
-// let div1=document.createElement('div')
-// let h1=document.createElement('h1')
-// let div2=document.createElement('div')
-// let div3=document.createElement('div')
-// let div4=document.createElement('div')
-// let article0=document.createElement('article')
-// let div5=document.createElement('div')
-// let div6=document.createElement('div')
-// let div7=document.createElement('div')
-// let a10=document.createElement('a')
-// let img1=document.createElement('img')
-// /*second project*/
-// let div8=document.createElement('div')
-// let article1=document.createElement('article')
-// let div9=document.createElement('div')
-// let article2=document.createElement('article')
-// let div10=document.createElement('div')
-// let div11=document.createElement('div')
-// let div12=document.createElement('div')
-// let a11=document.createElement('a')
-// let img2=document.createElement('img')
-// /*third project*/
-// let div13=document.createElement('div')
-// let article3=document.createElement('article')
-// let div14=document.createElement('div')
-// let article4=document.createElement('article')
-// let div15=document.createElement('div')
-// let div16=document.createElement('div')
-// let div17=document.createElement('div')
-// let a12=document.createElement('a')
-// let img3=document.createElement('img')
-// /*fourth project*/
-// let div18=document.createElement('div')
-// let article5=document.createElement('article')
-// let div19=document.createElement('div')
-// let article6=document.createElement('article')
-// let div20=document.createElement('div')
-// let div21=document.createElement('div')
-// let div22=document.createElement('div')
-// let a13=document.createElement('a')
-// let img4=document.createElement('img')
-// /*fifth project*/
-// let div23=document.createElement('div')
-// let article7=document.createElement('article')
-// let div24=document.createElement('div')
-// let article8=document.createElement('article')
-// let div25=document.createElement('div')
-// let div26=document.createElement('div')
-// let div27=document.createElement('div')
-// let a14=document.createElement('a')
-// let img5=document.createElement('img')
-// /*sixth project*/
-// let div28=document.createElement('div')
-// let article9=document.createElement('article')
-// let div29=document.createElement('div')
-// let article10=document.createElement('article')
-// let div30=document.createElement('div')
-// let div31=document.createElement('div')
-// let div32=document.createElement('div')
-// let a15=document.createElement('a')
-// let img6=document.createElement('img')
 
 function MobileMenu() {
   body.append(section);
@@ -343,39 +280,41 @@ function popWindowClick() {
 const form = document.querySelector('form');
 
 function validation() {
-  const mail = document.getElementById('mail').value;
-  const mail1 = document.getElementById('mail_grid').value;
+    const mail = document.getElementById('mail').value;
+    const mail1 = document.getElementById('mail_grid').value;
+  
+    const error = document.getElementById('error');
+    const error1 = document.getElementById('error_grid');
 
-  const error = document.getElementById('error');
-  const error1 = document.getElementById('error_grid');
-  const pattern = /[A-Z]/;
-
-  if (mail.match(pattern) || mail1.match(pattern)) {
-    error.innerText = 'email must be in lower case';
-    error1.innerText = 'email must be in lower case';
-  } else {
-    error.innerText = 'you\'re cool';
-    error1.innerText = 'you\'re cool';
+    error.style.position="relative";
+    error.style.top="430%";
+    error.style.left="5%";
+    error.style.whiteSpace="nowrap";
+    error1.style.position="relative";
+    error1.style.top="500%";
+    error1.style.left="50%";
+    error1.style.whiteSpace="nowrap";
+    const pattern = /[A-Z]/;
+  
+    if (mail.match(pattern) || mail1.match(pattern)) {
+      error.innerText = 'email must be in lower case';
+      error1.innerText = 'email must be in lower case';
+    } else {
+      error.innerText = 'you\'re cool';
+      error1.innerText = 'you\'re cool';
+    }
   }
-}
-
-form.addEventListener('submit', (e) => {
-  const mail = document.getElementById('mail').value;
-  const mail1 = document.getElementById('mail_grid').value;
-
-  const error = document.getElementById('error');
-  const error1 = document.getElementById('error_grid');
-  const pattern = /[A-Z]/;
-
-  if (mail.match(pattern) || mail1.match(pattern)) {
-    error.innerText = 'email must be in lower case';
-    error1.innerText = 'email must be in lower case';
-    e.preventDefault();
-  } else {
-    error.innerText = 'you\'re cool';
-    error1.innerText = 'you\'re cool';
-  }
-});
+  
+  form.addEventListener('submit', (e) => {
+    const mail = document.getElementById('mail').value;
+    const mail1 = document.getElementById('mail_grid').value;
+  
+    const pattern = /[A-Z]/;
+  
+    if (mail.match(pattern) || mail1.match(pattern)) {
+      e.preventDefault();
+    } 
+  });
 
 if (typeof (Storage) !== 'undefined') {
   localStorage.setItem('name', 'Smith');
