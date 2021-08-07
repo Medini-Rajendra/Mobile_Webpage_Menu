@@ -328,7 +328,6 @@ for (let i = 0; i < titles.length; i += 1) {
     popWindowClick();
     MobileMenu();
     validation();
-    storeData();
   }
   displayProject(
     titles[i],
