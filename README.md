@@ -1,8 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Javascript functionality for Menu button of the Webpage
-
-Javascript functionalities were added to the menu button of the designed webpage. 
+Webpage with Pop Window, Email Validation
+The Webpage has added functionalities with Pop windows and Email validation. Used javascript to do the functionalities
 
 ![screenshot](./images/mobile_menu.png)
 
