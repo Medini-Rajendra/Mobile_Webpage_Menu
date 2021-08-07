@@ -195,6 +195,7 @@ const project4 = new pop_project_win(
 const project5 = new pop_project_win(
     'Project name goes here',
     'projectpageimage6',
+    'rectangle11',
     'text5',
     'img3',
     'HTML/CSS',
@@ -225,7 +226,7 @@ for (let i = 0; i < projects.length; i += 1) {
     imglinks.push(projects[i].imglinkclass);
     tech0s.push(projects[i].tech0);
     tech1s.push(projects[i].tech1);
-    tech23s.push(projects[i].tech2);
+    tech2s.push(projects[i].tech2);
     liveLinks.push(projects[i].liveLink);
     sourceLinks.push(projects[i].sourceLink);
   }
@@ -342,8 +343,10 @@ const form = document.querySelector('form');
 
 function validation() {
     const mail = document.getElementById('mail').value;
+    const mail1 = document.getElementById('mail_grid').value;
 
     const error = document.getElementById('error');
+    const error1 = document.getElementById('error_grid');
     const pattern = /[A-Z]/;
   
     if (mail.match(pattern) || mail1.match(pattern)) {
