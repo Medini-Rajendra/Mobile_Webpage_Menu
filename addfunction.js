@@ -323,13 +323,6 @@ if (typeof (Storage) !== 'undefined') {
   document.getElementById('name_grid').innerHTML = localStorage.getItem('name');
 }
 
-function storeData() {
-  const info = {};// create an empty object
-  info.Name = document.getElementById('name_grid').value;
-  info.Email = document.getElementById('user_email').value;
-  info.Message = document.getElementById('msg_grid').value;
-}
-
 for (let i = 0; i < titles.length; i += 1) {
   if (i === 999) {
     popWindowClick();
